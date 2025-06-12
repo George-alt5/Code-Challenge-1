@@ -5,5 +5,4 @@ Welcome to my solutions for the Week 1 JavaScript Code Challenge at Moringa Scho
 
 2.chaiCalulator.
 
-
 3.mobileMoneyEstimator.
