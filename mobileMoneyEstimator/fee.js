@@ -1,10 +1,5 @@
-function estimateTransactionFee(amountToSend){
-    let fee = amountToSend * 0.015;
-
-    if(fee < 10){
-        fee = 10;
-    }else if (fee > 70){
-        fee = 70;
-    }
-    const total = amountToSend + fee;
+function estimateTransactionFee(amountToSend) {
+  const rawFee = amountToSend * 0.015;
+  const fee = Math.min(Math.max(rawFee, 10), 70);
+  const total = amountToSend + fee;
 }

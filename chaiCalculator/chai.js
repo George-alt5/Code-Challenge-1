@@ -1,8 +1,6 @@
-function calculateChaiIngredients(numberOfCups){
-    const Water = numberOfCups *200;
-    const Milk = numberOfCups * 50;
-    const TeaLeaves = numberOfCups * 1
-    const Sugar = numberOfCups * 2
-}
-
-
+function calculateChaiIngredients(numberOfCups) {
+  const water = numberOfCups * 200;
+  const milk = numberOfCups * 50;
+  const teaLeaves = numberOfCups;
+  const sugar = numberOfCups * 2;
+} 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Challenge</title>
+</head>
+<body>
+  <h2>Document</h2>
+
+  <script src="chaiCalculator/chai.js"></script>
+  <script src="bodaFareCalculator/fare.js"></script>
+  <script src="mobileMoneyEstimator/fee.js"></script>
+
+  <script>
+    function chai() {
+      const cups = Number(prompt("How many cups of Chai?"));
+      calculateChaiIngredients(cups);
+    }
+
+    function fare() {
+      const km = Number(prompt("Enter trip distance in kilometers:"));
+      calculateBodaFare(km);
+    }
+
+    function fee() {
+      const amount = Number(prompt("Enter amount to send (KES):"));
+      estimateTransactionFee(amount);
+    }
+    chai();
+    fare();
+    fee();
+  </script>
+</body>
+</html>
